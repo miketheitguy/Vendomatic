@@ -4,13 +4,13 @@
 
 Vendomatic is a WoW Addon that manages automatic item restocking, automatic repairing, and automatic selling of items whenever you speak to an appropriate vendor.
 
-### Functions
+## Functions
 
-#### Auto-Repair
+### Auto-Repair
 
 Every time you open a window with an NPC that has the ability to repair, the addon will repair automatically for you. The default variable is set for it to repair regardless of the cost. If you want to be prompted on every repair, or want to set a threshold above which the addon needs to prompt you for repairs, you can do this from the options menu. This will also use the guild bank if you have the option available.
 
-#### Auto-Restock
+### Auto-Restock
 
 It will keep your stocks of food/water/reagents/whatever up to a set amount. Whenever you visit a vendor that sells the item; Vendomatic will check the amount you already have, and buy the amount you need.
 
