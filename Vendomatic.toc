@@ -4,6 +4,8 @@
 ## X-Date: March 31 2019
 ## Author: miketheitguy
 ## X-Email: miketheitguy@users.noreply.github.com
+## X-Feedback: https://github.com/miketheitguy/Vendomatic
+## X-Website: https://github.com/miketheitguy/Vendomatic
 ## SavedVariablesPerCharacter: VendomaticOptions
 ## Version: 2.0.0
 
