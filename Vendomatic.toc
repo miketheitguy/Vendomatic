@@ -1,0 +1,11 @@
+## Interface: 80100
+## Title: Vendomatic
+## Notes: Automatic selling of grey/green items, automatic restocking reagents & ammo and automatic repair
+## X-Date: Dec 14 2018
+## Author: ImperialAKO
+## X-Email: gmta.addons@gmail.com
+## SavedVariablesPerCharacter: VendomaticOptions
+## Version: 8.1.0
+
+Vendomatic.lua
+Vendomatic.xml
