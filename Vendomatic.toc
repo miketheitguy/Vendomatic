@@ -5,7 +5,7 @@
 ## Author: miketheitguy
 ## X-Email: miketheitguy@users.noreply.github.com
 ## SavedVariablesPerCharacter: VendomaticOptions
-## Version: 8.1.5
+## Version: 2.0.0
 
 Vendomatic.lua
 Vendomatic.xml
