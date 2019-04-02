@@ -27,6 +27,7 @@ Automatically sell white, blue or epic items you don't use. We cannot know who w
 ## Slash Commands
 
 The following slash commands are available for the Vend-o-matic addon:
+
 * Opening config screen: **/vm config**
 * Show/hide minimap button: **/vm show**
 * Reset all option (cannot be restored) **/vm reset**
