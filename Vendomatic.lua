@@ -138,7 +138,7 @@ function Vendomatic_AutoRepair()
 							RepairAllItems(1);
 							print("|cffffd200Vend-o-matic|r: Repaired All Items with Guild Bank: " .. GetCoinTextureString(repaircost));
 						else
-							RepairAllItems(1);
+							RepairAllItems();
 							print("|cffffd200Vend-o-matic|r: Repaired All Items: " .. GetCoinTextureString(repaircost));
 						end
 					end
