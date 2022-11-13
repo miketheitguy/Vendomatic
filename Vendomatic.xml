@@ -151,6 +151,7 @@
 				<Offset x="0" y="-10"/>
 			</Anchor>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -161,7 +162,7 @@
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
-		</Backdrop>
+		</Backdrop>-->
 		<Layers>
 			<Layer level="OVERLAY">
 				<FontString name="$parentText" inherits="GameFontNormalLarge" justifyH="CENTER" setAllPoints="true" text="Vend-o-matic Options"/>
@@ -192,6 +193,7 @@
 				<Offset x="0" y="5"/>
 			</Anchor>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -203,6 +205,7 @@
 				<AbsValue val="16"/>
 			</EdgeSize>
 		</Backdrop>
+		-->
 		<Layers>
 			<Layer level="OVERLAY">
 				<FontString name="$parentText" inherits="GameFontNormalLarge" justifyH="CENTER" setAllPoints="true" text="Check to enable/disable:">
@@ -404,6 +407,7 @@
 				<Offset x="-5" y="0"/>
 			</Anchor>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -414,7 +418,8 @@
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
-		</Backdrop>	
+		</Backdrop>
+		-->
 		<Frames>
 			<CheckButton name="$parent_RadioButton1" inherits="SendMailRadioButtonTemplate">
 				<Anchors>
@@ -616,6 +621,7 @@
 				<Offset x="-5" y="0"/>
 			</Anchor>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -626,7 +632,8 @@
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
-		</Backdrop>	
+		</Backdrop>
+		-->
 		<Frames>
 			<ItemButton name="$parent_DropBox" hidden="false" parent="Vendomatic_OptionsSellFrame" enableMouse="true">
 				<Anchors>
@@ -723,6 +730,7 @@
 						<Offset x="19" y="-175"/>
 					</Anchor>
 				</Anchors>
+				<!--
 				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 					<BackgroundInsets>
 						<AbsInset left="2" right="4" top="4" bottom="4"/>
@@ -734,6 +742,7 @@
 						<AbsValue val="14"/>
 					</EdgeSize>
 				</Backdrop>
+				-->
 				<Frames>
 					<Button name="SellItemButton1" inherits="SellItemTemplate" text="[Twill Vest]">					
 						<Anchors>
@@ -945,6 +954,7 @@
 				<Offset x="-5" y="0"/>
 			</Anchor>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -956,6 +966,7 @@
 				<AbsValue val="16"/>
 			</EdgeSize>
 		</Backdrop> 
+		-->
 		<Frames>	
 			<CheckButton name="$parent_CheckOverStock" inherits="UICheckButtonTemplate" text="Overstock">
 				<Size>
@@ -1140,6 +1151,7 @@
 						<Offset x="19" y="-189"/>
 					</Anchor>
 				</Anchors>
+				<!--
 				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 					<BackgroundInsets>
 						<AbsInset left="2" right="4" top="4" bottom="4"/>
@@ -1151,6 +1163,7 @@
 						<AbsValue val="14"/>
 					</EdgeSize>
 				</Backdrop>
+				-->
 				<Frames>
 					<Button name="StockItemButton1" inherits="StockItemTemplate" text="">					
 						<Anchors>
@@ -1394,6 +1407,7 @@
 		<Anchors>
 			<Anchor point="CENTER" relativeTo="UIParent"/>
 		</Anchors>
+		<!--
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" title="true">
 			<BackgroundInsets>
 				<AbsInset left="4" right="4" top="2" bottom="4"/>
@@ -1405,6 +1419,7 @@
 				<AbsValue val="16"/>
 			</EdgeSize>
 		</Backdrop> 
+		-->
 		<Frames>
 			<Button name="$parent_ButtonAdd" inherits="UIPanelButtonTemplate" text="Repair">
 				<Size>
