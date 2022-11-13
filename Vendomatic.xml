@@ -164,6 +164,13 @@
 			</EdgeSize>
 		</Backdrop>-->
 		<Layers>
+		<Layer level="BORDER">
+			<Texture file="Interface\Tooltips\UI-Tooltip-Border" horizTile="true" vertTile="true" />
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+				<Anchor point="BOTTOMRIGHT"/>
+			</Anchors>
+		</Layer>
 			<Layer level="OVERLAY">
 				<FontString name="$parentText" inherits="GameFontNormalLarge" justifyH="CENTER" setAllPoints="true" text="Vend-o-matic Options"/>
 			</Layer>
