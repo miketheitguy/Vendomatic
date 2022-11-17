@@ -1,4 +1,4 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: Vendomatic
 ## Notes: Automatic selling of grey/green items, automatic restocking reagents & ammo and automatic repair
 ## X-Date: @file-date-iso@
