@@ -222,30 +222,30 @@ function Vendomatic_AutoSell()
 	local green_counter = 0;
 	local grey_individual_price = 0;
 	for i=0, 4 do
-		local MaxSlots = GetContainerNumSlots(i);		
+		local MaxSlots = C_Container.GetContainerNumSlots(i);		
 		for n=0, MaxSlots do
-			local itemid = GetContainerItemID(i,n);
+			local itemid = C_Container.GetContainerItemID(i,n);
 			if (itemid) then
 				local itemname,_,quality = GetItemInfo(itemid);
 				if ((itemname ~= nil) and (quality == 0)) then
 					--local itemname = GetItemInfo(itemid);
 					if VendomaticOptions["listtype"] == 0 then
 						if not Vendomatic_CheckExceptions(itemname) then
-							_,grey_stackcount = GetContainerItemInfo(i,n);
+							grey_stackcount = C_Container.GetContainerItemInfo(i,n).stackCount;
 							_,_,_,_,_,_,_,_,_,_,grey_individual_price = GetItemInfo(itemid);
 							grey_sellprice = grey_individual_price * grey_stackcount;
-							ShowContainerSellCursor(i,n);
-							UseContainerItem(i,n);
+							C_Container.ShowContainerSellCursor(i,n);
+							C_Container.UseContainerItem(i,n);
 							grey_counter = grey_counter + grey_stackcount;
 							grey_totalsale = grey_totalsale + grey_sellprice;
 						end
 					else
 						if Vendomatic_CheckExceptions(itemname) then
-							_,grey_stackcount = GetContainerItemInfo(i,n);
+							grey_stackcount = C_Container.GetContainerItemInfo(i,n).stackCount;
 							_,_,_,_,_,_,_,_,_,_,grey_individual_price = GetItemInfo(itemid);
 							grey_sellprice = grey_individual_price * grey_stackcount;
-							ShowContainerSellCursor(i,n);
-							UseContainerItem(i,n);
+							C_Container.ShowContainerSellCursor(i,n);
+							C_Container.UseContainerItem(i,n);
 							grey_counter = grey_counter + grey_stackcount;
 							grey_totalsale = grey_totalsale + grey_sellprice;
 						end
@@ -257,16 +257,16 @@ function Vendomatic_AutoSell()
 						if VendomaticOptions["listtype"] == 0 then
 							if not Vendomatic_CheckExceptions(itemname) then
 								_,_,_,_,_,_,_,_,_,_,green_sellprice = GetItemInfo(itemid);
-								ShowContainerSellCursor(i,n);
-								UseContainerItem(i,n);
+								C_Container.ShowContainerSellCursor(i,n);
+								C_Container.UseContainerItem(i,n);
 								green_counter = green_counter + 1;
 								green_totalsale = green_totalsale + green_sellprice;
 							end
 						elseif VendomaticOptions["listtype"] == 1 then
 							if Vendomatic_CheckExceptions(itemname) then
 								_,_,_,_,_,_,_,_,_,_,green_sellprice = GetItemInfo(itemid);
-								ShowContainerSellCursor(i,n);
-								UseContainerItem(i,n);
+								C_Container.ShowContainerSellCursor(i,n);
+								C_Container.UseContainerItem(i,n);
 								green_counter = green_counter + 1;
 								green_totalsale = green_totalsale + green_sellprice;
 							end
